@@ -3,90 +3,104 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Masīvkoka elementi</title>
-  <meta name="description" content="Masīvkoka elementi un mēbeles pēc pasūtījuma." />
-  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Masīvkoka elementi — masīvkoka mēbeles pēc pasūtījuma</title>
+  <meta name="description" content="Masīvkoka mēbeles un interjera elementi pēc individuāla pasūtījuma." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <!-- Header -->
   <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="/">MASĪVKOKA ELEMENTI</a>
-      <nav class="nav">
-        <a class="nav-link is-active" href="/">Sākums</a>
-        <a class="nav-link" href="/produkti.html">Produkti</a>
-        <a class="nav-link" href="/raksti.html">Raksti</a>
-        <a class="nav-link" href="/kontakti.html">Kontakti</a>
-      </nav>
+    <div class="container">
+      <div class="navbar">
+        <div class="brand">
+          <div class="name">MASĪVKOKA ELEMENTI</div>
+          <div class="tag">Masīvkoks. Pasūtījumi. Ilgmūžība.</div>
+        </div>
+
+        <nav class="nav-links" aria-label="Galvenā navigācija">
+          <a class="active" href="index.html">Sākums</a>
+          <a href="produkti.html">Produkti</a>
+          <a href="raksti.html">Raksti</a>
+          <a href="kontakti.html">Kontakti</a>
+        </nav>
+      </div>
     </div>
   </header>
 
+  <!-- Hero -->
   <main class="container">
     <section class="hero">
-      <div class="hero-text">
-        <h1>Masīvkoka elementi un mēbeles pēc pasūtījuma</h1>
+      <div class="hero-grid">
+        <div>
+          <h1>Masīvkoka elementi un mēbeles pēc pasūtījuma</h1>
 
-        <p class="lead">
-          Izgatavoju masīvkoka mēbeles un interjera elementus pēc individuāla pasūtījuma,
-          apvienojot tradicionālas kokapstrādes metodes ar mūsdienīgu dizainu.
-        </p>
+          <p class="lead">
+            Izgatavoju masīvkoka mēbeles un interjera elementus pēc individuāla pasūtījuma, apvienojot tradicionālas kokapstrādes metodes ar mūsdienīgu dizainu.
+          </p>
 
-        <p class="body">
-          Mani vienmēr ir interesējis darbs ar koku un iespēja radīt lietas, kas nav masu produkcija.
-          Meklēju oriģinālus risinājumus, eksperimentēju ar formām, savienojumiem un tehnoloģijām,
-          vienlaikus respektējot tradicionālo amatniecību.
-        </p>
+          <p class="p">
+            Mani vienmēr ir interesējis darbs ar koku un iespēja radīt lietas, kas nav masu produkcija. Meklēju oriģinālus risinājumus, eksperimentēju ar formām, savienojumiem un tehnoloģijām, vienlaikus respektējot tradicionālo amatniecību.
+          </p>
 
-        <p class="body">
-          Kaut arī dizaini var atkārtoties, katram meistaram ir sava pieeja — materiāla izvēlē,
-          izgatavošanas procesā un mēbeļu ilgmūžībā.
-        </p>
+          <p class="p">
+            Kaut arī dizaini var atkārtoties, katram meistaram ir sava pieeja — materiāla izvēlē, izgatavošanas procesā un mēbeļu ilgmūžībā.
+          </p>
 
-        <div class="cta">
-          <a class="btn" href="/kontakti.html">Sazināties</a>
-          <a class="btn btn-ghost" href="/produkti.html">Apskatīt produktus</a>
+          <div class="cta-row">
+            <a class="btn primary" href="kontakti.html">Sazināties</a>
+            <a class="btn" href="produkti.html">Apskatīt produktus</a>
+          </div>
+        </div>
+
+        <aside class="card">
+          <h3>Attēli (pagaidām testam)</h3>
+
+          <!-- Piezīme: šie ir stabilie “tests” attēli no picsum.
+               Vēlāk ieliksim Tavus foto repo mapē /img un te nomainīsim. -->
+          <div class="figure" style="margin-bottom:12px;">
+            <img src="https://picsum.photos/seed/woodworker/900/650" alt="Meistars darbnīcā (tests)" loading="lazy">
+          </div>
+
+          <div class="figure">
+            <img src="https://picsum.photos/seed/oakproject/900/650" alt="Projekta piemērs (tests)" loading="lazy">
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <hr class="sep" />
+
+    <!-- Ko vari pasūtīt -->
+    <section class="section">
+      <h2>Ko vari pasūtīt</h2>
+      <ul class="list">
+        <li>Masīvkoka galdi (ozols u.c.)</li>
+        <li>Soli, plaukti, interjera elementi</li>
+        <li>Individuāli risinājumi pēc idejas vai rasējuma</li>
+      </ul>
+    </section>
+
+    <!-- Process -->
+    <section class="section">
+      <h2>Process</h2>
+      <ol class="process">
+        <li>Īss apraksts + izmēri + vēlamais tonis</li>
+        <li>Piedāvājums un termiņš</li>
+        <li>Izgatavošana un nodošana</li>
+      </ol>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-row">
+        <div>© 2026 MASĪVKOKA ELEMENTI</div>
+        <div>
+          <a class="small-link" href="mailto:info@skinkis.work">info@skinkis.work</a>
+          · <span>20018696</span>
         </div>
       </div>
-
-      <div class="hero-media">
-        <figure class="photo">
-          <img src="/assets/img/me.jpg" alt="Meistars darbā" />
-          <figcaption>Meistars / darbnīca</figcaption>
-        </figure>
-
-        <figure class="photo">
-          <img src="/assets/img/project-1.jpg" alt="Projekta piemērs" />
-          <figcaption>Projekta piemērs</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section class="strip">
-      <div class="strip-card">
-        <h2>Ko vari pasūtīt</h2>
-        <ul class="list">
-          <li>Masīvkoka galdi (ozols u.c.)</li>
-          <li>Soli, plaukti, interjera elementi</li>
-          <li>Individuāli risinājumi pēc idejas vai rasējuma</li>
-        </ul>
-      </div>
-
-      <div class="strip-card">
-        <h2>Process</h2>
-        <ol class="list">
-          <li>Īss apraksts + izmēri + vēlamais tonis</li>
-          <li>Piedāvājums un termiņš</li>
-          <li>Izgatavošana un nodošana</li>
-        </ol>
-      </div>
-    </section>
+    </footer>
   </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <span>© 2026 MASĪVKOKA ELEMENTI</span>
-      <span><a href="mailto:info@skinkis.work">info@skinkis.work</a></span>
-    </div>
-  </footer>
 </body>
 </html>
